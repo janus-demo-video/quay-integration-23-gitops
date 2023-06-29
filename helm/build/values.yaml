@@ -1,0 +1,16 @@
+app:
+  name: quay-integration-23
+  namespace: quay-integration-23-dev
+  cluster: .apps.cluster-xxxxx.xxxxx.sandbox123.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/quay-integration-23
+  org: janus-demo-video
+  name: quay-integration-23
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: janus-demo-video
+  name: quay-integration-23
